@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TechGrafico</title>
+  </head>
+  <body>
+
+    <div class="container navbar">
+      <header>
+        <div class="lgo">
+          <h1>Subham kumar</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">about me</a>
+            </li>
+            <li>
+              <a href="#skills">skills</a>
+            </li>
+            <li>
+              <a href="#work">my work</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container main-info-selection">
+      <div class="text">
+        <h1>
+          <span>H</span>
+          <span class="m-left">i</span>
+          <span class="m-left">,</span>
+          <br />
+          <span>I</span>
+          <span class="m-left">'</span>
+          <span class="m-left">m</span>
+          <span class="name">S</span>
+          <span class="m-left name">u</span>
+          <span class="m-left name">b</span>
+          <span class="m-left name">h</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">m</span>
+          <span class="m-left">,</span>
+          <br />
+          <span>W</span>
+          <span class="m-left">e</span>
+          <span class="m-left">b</span>
+          <span>D</span>
+          <span class="m-left">e</span>
+          <span class="m-left">s</span>
+          <span class="m-left">i</span>
+          <span class="m-left">g</span>
+          <span class="m-left">n</span>
+          <span class="m-left">e</span>
+          <span class="m-left">r</span>
+          <span class="m-left">.</span>
+        </h1>
+         <p>
+           CSS / JavaScript / React
+         </p>
+         <a href="#contact">contact me</a>
+      </div>
+      <div class="profile-image">
+        <img  src="profile-image.png" alt="" />
+      </div>
+    </div>
+
+    <div class="container about" id="about">
+      <h1 >About</h1>
+      <div class="about-me-info">
+        <p>Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer.</p>
+        <p>Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer.
+        </p>
+        <p>Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer. Hi, my name is subham kumar. i am softwere ennginer.</p>
+      </div>
+      <img src="dotted-shape.png" alt="" />
+    </div>
+
+    <div class="container.skills"id="skills">
+      <h1 style="font-size: 10rem; color:#707070; opacity: .1; margin-left:1100px; margin-top:-200px;">Skills</h1>
+      <p class="skills-info">
+        Hi, my name is subham kumar. i am softwere ennginer.Hi, my name is subham kumar. i am softwere ennginer.Hi, my name is subham kumar. i am softwere ennginer.Hi, my name is subham kumar. i am softwere ennginer.Hi, my name is subham kumar. i am softwere ennginer.Hi, my name is subham kumar. i am softwere ennginer.
+      </p>
+      <div class="html">
+        <div class="tag-html">
+          <p>
+            HTML
+          </p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-html"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-css">
+          <p>
+            CSS
+          </p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-css"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-JavaScript">
+          <p>
+            JavaScript
+          </p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-JavaScript"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-react">
+          <p>
+            React
+          </p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-react"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container work" id="work">
+      <h1>Work</h1>
+      <div class="work-category">
+        <button id="designing" class="active" onclick="showRequiredCategory(this)">web designing</button>
+        <button id="animation" onclick="showRequiredCategory(this)">Web animation</button>
+        <button id="project" onclick="showRequiredCategory(this)">React project</button>
+      </div>
+      <div class="category-designing showCategory">
+        <a href=""><img src="1.png" /></a>
+        <a href=""><img src="2.png" /></a>
+        <a href=""><img src="3.png" /></a>
+        <a href=""><img src="2.png" /></a>
+        <a href=""><img src="3.png" /></a>
+      </div>
+      <div class="category-animation hideCategory">
+        <a href=""><img src="1.png" /></a>
+        <a href=""><img src="2.png" /></a>
+        <a href=""><img src="3.png" /></a>
+      </div>
+      <div class="category-project hideCategory">
+        <a href=""><img src="1.png" /></a>
+        <a href=""><img src="2.png" /></a>
+        <a href=""><img src="3.png" /></a>
+        <a href=""><img src="2.png" /></a>
+      </div>
+    </div>
+
+    <div class="container contact" id="contact">
+      <h1>contact</h1>
+      <form>
+        <input type="text" name="name" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="PortfolioPersonemail@example.com" disabled />
+        <textarea name="message" cols="30" rows="10" placeholder="message"></textarea>
+        <input type="submit" />
+      </form>
+    </div>
+
+    <footer>
+      <hr />
+      <p>
+        2020 Copyright. All Rights Reserved
+      </p>
+    </footer>
+
+
+
+    <script src="ScrollMagic.min.js"></script>
+    <script src="animation.gsap.min.js"></script>
+    <script src="TimelineLite.min.js"></script>
+    <script src="TweenMax.min.js"></script>
+    <script src="CSSPlugin.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
